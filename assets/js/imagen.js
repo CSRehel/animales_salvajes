@@ -8,7 +8,7 @@ document.getElementById('animal').addEventListener('change', async () => {
     const animalesTemplate = animales.find(anm => anm.name == animal)
 
     
-    document.getElementById('preview').innerHTML = `<img class="img-fluid" src="/assets/imgs/${animalesTemplate.imagen}"/>`
+    document.getElementById('preview').innerHTML = `<img class="img-fluid" src="assets/imgs/${animalesTemplate.imagen}"/>`
     
     return animalesTemplate
 })
